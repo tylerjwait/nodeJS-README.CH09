@@ -1,24 +1,24 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./Develop/utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'What is your project\'s name?',
+    message: 'What is the name of your README file?',
   },
   {
     type: 'input',
     name: 'description',
-    message: 'Please write a short description of your project:',
+    message: 'Summerize your README file: ',
   },
   {
     type: 'input',
     name: 'user',
-    message: 'What is your "User Story"?',
+    message: 'What is the "User Story"?',
   },
   {
     type: 'checkbox',
@@ -48,7 +48,7 @@ function init() {
   inquirer
     .prompt(questions)
     // Used writeFileSync method to use promises instead of a callback function
-    .then((answers) => fs.writeFileSync('./utils/README.md', generateMarkdown(answers)))
+    .then((answers) => fs.writeFileSync('Develop/utils/README.md', generateMarkdown(answers)))
     .then(() => console.log('Generating README.md...'))
     .catch((err) => console.error(err));
 }
