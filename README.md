@@ -39,5 +39,8 @@ WHEN I click on the links in the Table of Contents
 
 THEN I am taken to the corresponding section of the README ✅
 
+✅ sample readme is automatically saved in the following PATH 'Develop/utils/README.md'
+
 LINK TO DEMO VIDEO [https://drive.google.com/file/d/1abi0CnUeAc8W6DCj_8MgXUuTQ2ofmNT4/view]
+
 LINK TO GITHUB REPO [https://github.com/tylerjwait/nodeJS-README.CH09]
