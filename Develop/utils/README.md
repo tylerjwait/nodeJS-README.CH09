@@ -1,8 +1,8 @@
-# Test1 
+# README Generator 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-To test my readme generator
+A generator to automatically generate a README with just a few prompts
 ## Table of Contents 
 * [User Story](#user-story)
 * [License](#license)
@@ -10,7 +10,7 @@ To test my readme generator
 * [Questions](#questions)
 ## User Story
 ```
-If I follow the prompts correctly then I will be able to generate a readme. 
+AS a Developer, I WANT a README Generator, SO THAT I can quickly develop quality README files
 ```
 ## License
 🏆 This application is licensed under The MIT License.
